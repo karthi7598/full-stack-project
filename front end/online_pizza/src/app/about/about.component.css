@@ -1,0 +1,47 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles */
+  header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    max-width: 1200px;
+    margin: 20px auto;
+  }
+  
+  .about-section {
+    padding: 30px;
+  }
+  
+  .team-member {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .team-member img {
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
